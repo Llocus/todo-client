@@ -1,0 +1,21 @@
+.NotPageContent {
+  h1 {
+    padding-right: 2em;
+  }
+  padding-left: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 601px) {
+  .NotPageContent {
+    width: 100%;
+    
+  }
+  .Center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    }
+}
+

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+    .Home_PageContent {
+        img {
+            width: 100%;
+            margin-bottom: -20em;
+        }
+        span br{
+            margin-bottom: 50px;
+        }
+        .PageContent {
+            background-color: rgb(196, 196, 196);
+        }
+    }
+}
+@media only screen and (min-width: 601px) {
+    .Home_PageContent {
+        img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            padding-bottom: 3em;
+            z-index: -1;
+            
+        }
+        .PageContent {
+            z-index: 1;
+            float: left;
+            
+        }
+        .Description {
+            padding-top: 12em;
+            margin-left: 2.5em;
+        }
+    }
+}
+
+.Home_PageContent {
+    .Description {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .PageContent {
+        height: 100vh;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    span {
+        b {
+            font-size: 1.5em;
+        }
+        margin-top: 15px;
+        font-size: 2em;
+    }
+
+    button {
+        border: none;
+        color: white;
+        padding: 12px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        background-color: #70d8f1; 
+        color: black; 
+        border: 2px solid #20b3d8;
+
+        &:hover {
+            background-color: #219bb9;
+            color: white;
+        }
+    }
+}
